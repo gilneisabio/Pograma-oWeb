@@ -20,7 +20,7 @@ if($row == 1) {
 	header('Location: painel.php');
 	exit();
 } else {
-	$_SESSION['nao_autenticado'] = true;
+	$_SESSION['nao_autenticado'] = 0;
 	header('Location: index.php');
 	exit();
 }

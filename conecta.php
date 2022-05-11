@@ -2,6 +2,6 @@
 define('HOST', 'localhost');
 define('USUARIO', 'root');
 define('SENHA', '');
-define('DB', 'cad_user');
+define('DB', 'cadastro_usuarios');
 
-$conecta = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
+$conecta = mysqli_connect(HOST, USUARIO, SENHA, DB) or die('Não foi possível conectar');
